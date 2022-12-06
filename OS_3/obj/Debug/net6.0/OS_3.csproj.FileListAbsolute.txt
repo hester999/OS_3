@@ -1,0 +1,15 @@
+/Users/hester/Documents/C#/OS_3/OS_3/bin/Debug/net6.0/OS_3
+/Users/hester/Documents/C#/OS_3/OS_3/bin/Debug/net6.0/OS_3.deps.json
+/Users/hester/Documents/C#/OS_3/OS_3/bin/Debug/net6.0/OS_3.runtimeconfig.json
+/Users/hester/Documents/C#/OS_3/OS_3/bin/Debug/net6.0/OS_3.dll
+/Users/hester/Documents/C#/OS_3/OS_3/bin/Debug/net6.0/OS_3.pdb
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.csproj.AssemblyReference.cache
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.AssemblyInfoInputs.cache
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.AssemblyInfo.cs
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.csproj.CoreCompileInputs.cache
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.dll
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/refint/OS_3.dll
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.pdb
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/OS_3.genruntimeconfig.cache
+/Users/hester/Documents/C#/OS_3/OS_3/obj/Debug/net6.0/ref/OS_3.dll
