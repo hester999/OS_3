@@ -79,7 +79,7 @@ class Producer
                {
                     if (Print.stop)
                     {
-                         Console.WriteLine("Строка остановилась");
+                        
                          Writer.Complete();
                          return;
                     }
@@ -99,13 +99,13 @@ class Producer
                               foreach (int num in Print.q)
                               {
                                    
-                                   Console.WriteLine($"Элемент очереди, который не изъят - {num}");
+                                   // Console.WriteLine($"Элемент очереди, который не изъят - {num}");
                                    
                                    if (Print.stop)
                                    {
                                       
-                              
-                                        return;
+                                        Writer.Complete();
+                                        // return;
                                    }
                               }
                               
@@ -173,13 +173,24 @@ class Consumer
                          else if (Print.q.Count <= 80 && (!Print.flag))
                          {
                               Console.WriteLine($"Осталось элементов в очереди  - {Print.q.Count} ");
-                         
+                              
+                              
+                              if ((Print.q.Count() <= 76 && Print.stop) || Print.stop)
+                              {
+                                   while (Print.q.Count()>0)
+                                   {
+                                        Console.WriteLine($"Элемент после остановки - {Print.q.Dequeue()} ");
+                                   }
+                                   
+                              }
                               
                               Console.WriteLine("stop stream Reader");
                               Thread.Sleep(10000);
-                       
+
                          }
+                        
                     }
+                    
                     else return; 
                }
               
